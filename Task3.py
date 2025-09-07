@@ -81,13 +81,17 @@
 # print("Square of given Number: ",num ** 2)
 # print("Cube of given Number: ",num ** 3)
 
-val = float(input("Enter any Value: "))
-if val > 0:
-    print("Positive Value")
-elif val == 0:
-    print("Zero")
-else:
-    print("Negative Value")
+# val = float(input("Enter any Value: "))
+# if val > 0:
+#     print("Positive Value")
+# elif val == 0:
+#     print("Zero")
+# else:
+#     print("Negative Value")
 
 
 
+import math 
+a = int(input("Enter First Number: "))
+b = int(input("Enter Second Number: "))
+print("GCD is: ",math.gcd(a,b))
