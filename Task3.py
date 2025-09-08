@@ -105,12 +105,17 @@
 # print("Length =", count)
 
 
-n = int(input("Enter number: "))
+# n = int(input("Enter number: "))
 
-if n > 0:
-    print("Positive")
-elif n < 0:
-    print("Negative")
-else:
-    print("Zero")
+# if n > 0:
+#     print("Positive")
+# elif n < 0:
+#     print("Negative")
+# else:
+#     print("Zero")
 
+
+
+n = int(input("Enter n: "))
+total = n * (n + 1) // 2
+print("Sum =", total)
