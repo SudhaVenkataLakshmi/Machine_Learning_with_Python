@@ -8,6 +8,6 @@ else:
             prime = False
             break
     if prime:
-        print("Prime")
+        print("Prime Number")
     else:
-        print("Not Prime")
+        print("Not a Prime Number")
