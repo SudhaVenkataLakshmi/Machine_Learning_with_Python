@@ -91,7 +91,15 @@
 
 
 
-import math 
-a = int(input("Enter First Number: "))
-b = int(input("Enter Second Number: "))
-print("GCD of given numbers is: ", math.gcd(a,b))
+# import math 
+# a = int(input("Enter First Number: "))
+# b = int(input("Enter Second Number: "))
+# print("GCD of given numbers is: ", math.gcd(a,b))
+
+
+
+s = input("Enter string: ")
+count = 0
+for _ in s:
+    count += 1
+print("Length =", count)
