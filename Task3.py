@@ -94,4 +94,4 @@
 import math 
 a = int(input("Enter First Number: "))
 b = int(input("Enter Second Number: "))
-print("GCD is: ",math.gcd(a,b))
+print("GCD of given numbers is: ", math.gcd(a,b))
