@@ -8,10 +8,19 @@
 
 
 
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    return n * factorial(n - 1)
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     return n * factorial(n - 1)
 
-print(factorial(5)) 
+# print(factorial(5)) 
+
+
+
+s1 = "listen"
+s2 = "silent"
+if sorted(s1) == sorted(s2):
+    print("Anagram")
+else:
+    print("Not Anagram")
 
