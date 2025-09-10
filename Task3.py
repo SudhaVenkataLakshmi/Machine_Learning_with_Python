@@ -122,12 +122,23 @@
 
 
 
-n = int(input("Enter number: "))
-rev = 0
+# n = int(input("Enter number: "))
+# rev = 0
 
-while n > 0:
-    digit = n % 10
-    rev = rev * 10 + digit
-    n //= 10
+# while n > 0:
+#     digit = n % 10
+#     rev = rev * 10 + digit
+#     n //= 10
 
-print("Reversed number =", rev)
+# print("Reversed number =", rev)
+
+
+
+nums = [5, 10, 15, 20]
+total = 0
+
+for n in nums:
+    total += n
+
+print("Sum =", total)
+
