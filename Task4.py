@@ -17,10 +17,22 @@
 
 
 
-s1 = "listen"
-s2 = "silent"
-if sorted(s1) == sorted(s2):
-    print("Anagram")
-else:
-    print("Not Anagram")
+# s1 = "listen"
+# s2 = "silent"
+# if sorted(s1) == sorted(s2):
+#     print("Anagram")
+# else:
+#     print("Not Anagram")
+
+
+
+nums = [1, 2, 2, 3, 4, 4, 5]
+unique = []
+
+for n in nums:
+    if n not in unique:
+        unique.append(n)
+
+print("Unique elements:", unique)
+
 
