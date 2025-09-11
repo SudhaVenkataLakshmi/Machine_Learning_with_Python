@@ -74,13 +74,13 @@
 
 
 
-nums = [10, 2, 8, 4, 6]
-smallest = second_smallest = float('inf')
+nums = [99,34,12,9,27,2]
+smallest = sec_small = float('inf')
 for n in nums:
     if n < smallest:
-        second_smallest = smallest
+        sec_small = smallest
         smallest = n
-    elif n < second_smallest and n != smallest:
-        second_smallest = n
-print("Second smallest =", second_smallest)
+    elif n < sec_small and n != smallest:
+        sec_small = n
+print("Second smallest is =", sec_small)
 
