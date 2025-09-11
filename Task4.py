@@ -52,10 +52,22 @@
 
 
 
-list1 = [1, 2, 3, 4, 5]
-list2 = [3, 4, 5, 6, 7]
-common = []
-for x in list1:
-    if x in list2:
-        common.append(x)
-print("Common elements:", common)
+# list1 = [1, 2, 3, 4, 5]
+# list2 = [3, 4, 5, 6, 7]
+# common = []
+# for x in list1:
+#     if x in list2:
+#         common.append(x)
+# print("Common elements:", common)
+
+
+
+nums = [10, 25, 4, 99, 3, 65]
+largest = nums[0]
+smallest = nums[0]
+for n in nums:
+    if n > largest:
+        largest = n
+    if n < smallest:
+        smallest = n
+print("Largest =", largest, " Smallest =", smallest)
