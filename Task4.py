@@ -74,28 +74,28 @@
 
 
 
-# nums = [99,34,12,9,27,2]
-# smallest = sec_small = float('inf')
-# for n in nums:
-#     if n < smallest:
-#         sec_small = smallest
-#         smallest = n
-#     elif n < sec_small and n != smallest:
-#         sec_small = n
-# print("Second smallest is =", sec_small)
+nums = [9,25,12,6,10,38]
+smallest = sec_small = float('inf')
+for n in nums:
+    if n < smallest:
+        sec_small = smallest
+        smallest = n
+    elif n < sec_small and n != smallest:
+        sec_small = n
+print("Second smallest is =", sec_small)
 
 
 
 
 
 
-n = 28
-div_sum = 0
-for i in range(1, n):
-    if n % i == 0:
-        div_sum += i
-if div_sum == n:
-    print(n, "is a Perfect Number")
-else:
-    print(n, "is not a Perfect Number")
+# n = 28
+# div_sum = 0
+# for i in range(1, n):
+#     if n % i == 0:
+#         div_sum += i
+# if div_sum == n:
+#     print(n, "is a Perfect Number")
+# else:
+#     print(n, "is not a Perfect Number")
 
