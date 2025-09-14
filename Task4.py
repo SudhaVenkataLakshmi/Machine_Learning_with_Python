@@ -13,7 +13,7 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
-print(factorial(8)) 
+print(factorial(12)) 
 
 
 
