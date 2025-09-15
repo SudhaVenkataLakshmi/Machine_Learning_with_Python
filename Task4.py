@@ -1,10 +1,10 @@
-import string
-s = "Pack my box with five dozen liquor jugs"
-alphabet = set(string.ascii_lowercase)
-if set(s.lower()) >= alphabet:
-    print("GIven sentence is Pangram")
-else:
-    print("Given Senetence is Not a Pangram")
+# import string
+# s = "Pack my box with five dozen liquor jugs"
+# alphabet = set(string.ascii_lowercase)
+# if set(s.lower()) >= alphabet:
+#     print("GIven sentence is Pangram")
+# else:
+#     print("Given Senetence is Not a Pangram")
 
 
 
@@ -26,14 +26,14 @@ else:
 
 
 
-# nums = [1, 2, 2, 5, 6, 5, 3, 6, 2]
-# unique = []
+nums = [1, 3, 4, 5, 3, 2, 4, 5, 3, 6, 2]
+unique = []
 
-# for n in nums:
-#     if n not in unique:
-#         unique.append(n)
+for n in nums:
+    if n not in unique:
+        unique.append(n)
 
-# print("Unique elements:", unique)
+print("Unique elements:", unique)
 
 
 
