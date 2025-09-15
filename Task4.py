@@ -44,7 +44,7 @@
 
 
 
-sentence = "Python Language"
+sentence = "Python Practice with problem solving"
 words = sentence.split()
 reversed_sentence = " ".join(words[::-1])
 print(reversed_sentence)
