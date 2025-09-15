@@ -38,16 +38,16 @@
 
 
 
-nums = [9,5,3,12,15]
-squares = [n**2 for n in nums]
-print("Squares:", squares)
+# nums = [9,5,3,12,15]
+# squares = [n**2 for n in nums]
+# print("Squares:", squares)
 
 
 
-# sentence = "I love coding"
-# words = sentence.split()
-# reversed_sentence = " ".join(words[::-1])
-# print(reversed_sentence)
+sentence = "Python Language"
+words = sentence.split()
+reversed_sentence = " ".join(words[::-1])
+print(reversed_sentence)
 
 
 
