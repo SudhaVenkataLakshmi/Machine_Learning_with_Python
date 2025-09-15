@@ -44,21 +44,21 @@
 
 
 
-sentence = "Python Practice with problem solving"
-words = sentence.split()
-reversed_sentence = " ".join(words[::-1])
-print(reversed_sentence)
+# sentence = "Python Practice with problem solving"
+# words = sentence.split()
+# reversed_sentence = " ".join(words[::-1])
+# print(reversed_sentence)
 
 
 
 
-# list1 = [1,5,3,6,9,2,7]
-# list2 = [3,4,2,6,0,9,2,5]
-# common = []
-# for x in list1:
-#     if x in list2:
-#         common.append(x)
-# print("Common elements:", common)
+list1 = [1,5,3,4,2,1,1,5,4,3,2]
+list2 = [3,3,5,7,3,2,4,2,6,5,6,4]
+common = []
+for x in list1:
+    if x in list2:
+        common.append(x)
+print("Common elements:", common)
 
 
 
