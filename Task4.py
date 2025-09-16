@@ -38,7 +38,7 @@
 
 
 
-nums = [2,5,9,3]
+nums = [12,5,18,9,20]
 squares = [n**2 for n in nums]
 print("Squares:", squares)
 
