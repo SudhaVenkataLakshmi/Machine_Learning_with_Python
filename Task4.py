@@ -101,8 +101,8 @@
 
 
 
-a = 8
-b = 6
+a = 9
+b = 5
 result = 1
 for i in range(b):
     result *= a
