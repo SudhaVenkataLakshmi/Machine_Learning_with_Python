@@ -101,8 +101,8 @@
 
 
 
-a = 2
-b = 5
+a = 4
+b = 7
 result = 1
 for i in range(b):
     result *= a
