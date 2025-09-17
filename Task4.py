@@ -123,14 +123,14 @@
 
 
 
-# nums = [1,2,3,4,5,6,7,8]
-# even_sum = odd_sum = 0
-# for n in nums:
-#     if n % 2 == 0:
-#         even_sum += n
-#     else:
-#         odd_sum += n
-# print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
+nums = [12,5,6,9,10,3,11,15,8]
+even_sum = odd_sum = 0
+for n in nums:
+    if n % 2 == 0:
+        even_sum += n
+    else:
+        odd_sum += n
+print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
 
 
 
@@ -143,12 +143,12 @@
 
 
 
-s = "mississippi"
-freq ={}
-for ch in s:
-    freq[ch] = freq.get(ch,0)+1
-max_char = max(freq, key=freq.get)
-print("Most Frequent char = ",max_char)
+# s = "mississippi"
+# freq ={}
+# for ch in s:
+#     freq[ch] = freq.get(ch,0)+1
+# max_char = max(freq, key=freq.get)
+# print("Most Frequent char = ",max_char)
 
 
 
