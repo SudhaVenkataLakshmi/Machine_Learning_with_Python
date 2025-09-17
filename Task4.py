@@ -134,10 +134,21 @@
 
 
 
-def fib(n):
-    if n <= 1:
-        return n
-    return fib(n-1) + fib(n-2)
-for i in range(10):
-    print(fib(i),end= " ")
+# def fib(n):
+#     if n <= 1:
+#         return n
+#     return fib(n-1) + fib(n-2)
+# for i in range(10):
+#     print(fib(i),end= " ")
+
+
+
+s = "mississippi"
+freq ={}
+for ch in s:
+    freq[ch] = freq.get(ch,0)+1
+max_char = max(freq, key=freq.get)
+print("Most Frequent char = ",max_char)
+
+
 
