@@ -123,11 +123,21 @@
 
 
 
-nums = [1,2,3,4,5,6,7,8]
-even_sum = odd_sum = 0
-for n in nums:
-    if n % 2 == 0:
-        even_sum += n
-    else:
-        odd_sum += n
-print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
+# nums = [1,2,3,4,5,6,7,8]
+# even_sum = odd_sum = 0
+# for n in nums:
+#     if n % 2 == 0:
+#         even_sum += n
+#     else:
+#         odd_sum += n
+# print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
+
+
+
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n-1) + fib(n-2)
+for i in range(10):
+    print(fib(i),end= " ")
+
