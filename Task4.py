@@ -101,23 +101,23 @@
 
 
 
-# a = 4
-# b = 7
-# result = 1
-# for i in range(b):
-#     result *= a
-# print("Power = ", result)
+a = 8
+b = 6
+result = 1
+for i in range(b):
+    result *= a
+print("Power = ", result)
 
 
 
-s = "Practice Makes Man Perfect"
-upper = lower = 0
-for ch in s:
-    if ch.isupper():
-        upper += 1
-    elif ch.islower():
-        lower += 1
-print("Uppercase = ",upper, "Lowercase = ",lower)
+# s = "Practice Makes Man Perfect"
+# upper = lower = 0
+# for ch in s:
+#     if ch.isupper():
+#         upper += 1
+#     elif ch.islower():
+#         lower += 1
+# print("Uppercase = ",upper, "Lowercase = ",lower)
 
 
 
