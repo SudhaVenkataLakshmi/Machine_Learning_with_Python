@@ -26,12 +26,11 @@
 
 
 
-nums = [1,1,4,7,9,4,6,7]
+nums = [2,4,6,2,3,4,6]
 unique = []
 for n in nums:
     if n not in unique:
         unique.append(n)
-
 print("Unique elements:", unique)
 
 
