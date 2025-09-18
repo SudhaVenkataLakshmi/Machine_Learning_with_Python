@@ -37,9 +37,9 @@
 
 
 
-# nums = [11,25,16,19,8]
-# squares = [n**2 for n in nums]
-# print("Squares:", squares)
+nums = [16,23,9,35]
+squares = [n**2 for n in nums]
+print("Squares:", squares)
 
 
 
@@ -134,12 +134,12 @@
 
 
 
-def fib(n):
-    if n <= 1:
-        return n
-    return fib(n-1) + fib(n-2)
-for i in range(7):
-    print(fib(i),end= " ")
+# def fib(n):
+#     if n <= 1:
+#         return n
+#     return fib(n-1) + fib(n-2)
+# for i in range(7):
+#     print(fib(i),end= " ")
 
 
 
