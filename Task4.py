@@ -8,12 +8,12 @@
 
 
 
-# def factorial(n):
-#     if n == 0 or n == 1:
-#         return 1
-#     return n * factorial(n - 1)
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
 
-# print(factorial(7)) 
+print(factorial(12)) 
 
 
 
@@ -26,12 +26,12 @@
 
 
 
-nums = [2,4,6,2,3,4,6]
-unique = []
-for n in nums:
-    if n not in unique:
-        unique.append(n)
-print("Unique elements:", unique)
+# nums = [2,4,6,2,3,4,6]
+# unique = []
+# for n in nums:
+#     if n not in unique:
+#         unique.append(n)
+# print("Unique elements:", unique)
 
 
 
