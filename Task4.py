@@ -110,27 +110,27 @@
 
 
 
-s = "Python Programming Language"
-upper = lower = 0
-for ch in s:
-    if ch.isupper():
-        upper += 1
-    elif ch.islower():
-        lower += 1
-print("Uppercase = ",upper, "Lowercase = ",lower)
+# s = "Python Programming Language"
+# upper = lower = 0
+# for ch in s:
+#     if ch.isupper():
+#         upper += 1
+#     elif ch.islower():
+#         lower += 1
+# print("Uppercase = ",upper, "Lowercase = ",lower)
 
 
 
 
 
-# nums = [12,5,6,9,10,3,11,15,8]
-# even_sum = odd_sum = 0
-# for n in nums:
-#     if n % 2 == 0:
-#         even_sum += n
-#     else:
-#         odd_sum += n
-# print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
+nums = [11,34,6,5,8,9,13,23,67]
+even_sum = odd_sum = 0
+for n in nums:
+    if n % 2 == 0:
+        even_sum += n
+    else:
+        odd_sum += n
+print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
 
 
 
