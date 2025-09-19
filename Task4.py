@@ -60,27 +60,27 @@
 
 
 
-nums = [11,5,7,90,23,50,12,12,7,9]
-largest = nums[0]
-smallest = nums[0]
-for n in nums:
-    if n > largest:
-        largest = n
-    if n < smallest:
-        smallest = n
-print("Largest =", largest, " Smallest =", smallest)
-
-
-
-# nums = [12,5,90,27,3,66,99,36]
-# smallest = sec_small = float('inf')
+# nums = [11,5,7,90,23,50,12,12,7,9]
+# largest = nums[0]
+# smallest = nums[0]
 # for n in nums:
+#     if n > largest:
+#         largest = n
 #     if n < smallest:
-#         sec_small = smallest
 #         smallest = n
-#     elif n < sec_small and n != smallest:
-#         sec_small = n
-# print("Second smallest is =", sec_small)
+# print("Largest =", largest, " Smallest =", smallest)
+
+
+
+nums = [10,20,35,6,12,82,95,12,60]
+smallest = sec_small = float('inf')
+for n in nums:
+    if n < smallest:
+        sec_small = smallest
+        smallest = n
+    elif n < sec_small and n != smallest:
+        sec_small = n
+print("Second smallest is =", sec_small)
 
 
 
