@@ -1,19 +1,19 @@
-import string
-s = "Pack my box with five dozen liquor jugs"
-alphabet = set(string.ascii_lowercase)
-if set(s.lower()) >= alphabet:
-    print("Given sentence is Pangram")
-else:
-    print("Given Senetence is Not a Pangram")
+# import string
+# s = "Pack my box with five dozen liquor jugs"
+# alphabet = set(string.ascii_lowercase)
+# if set(s.lower()) >= alphabet:
+#     print("Given sentence is Pangram")
+# else:
+#     print("Given Senetence is Not a Pangram")
 
 
 
-# def factorial(n):
-#     if n == 0 or n == 1:
-#         return 1
-#     return n * factorial(n - 1)
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
 
-# print(factorial(12)) 
+print(factorial(9)) 
 
 
 
