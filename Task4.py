@@ -87,7 +87,7 @@
 
 
 
-n = 28
+n = 496
 div_sum = 0
 for i in range(1, n):
     if n % i == 0:
