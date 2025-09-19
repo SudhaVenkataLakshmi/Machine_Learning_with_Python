@@ -42,21 +42,21 @@
 
 
 
-sentence = "Practice Makes Man Perfect"
-words = sentence.split()
-reversed_sentence = " ".join(words[::-1])
-print(reversed_sentence)
+# sentence = "Practice Makes Man Perfect"
+# words = sentence.split()
+# reversed_sentence = " ".join(words[::-1])
+# print(reversed_sentence)
 
 
 
 
-# list1 = [1,5,5,6,9,0,2,1,3,1,4,6,3,2]
-# list2 = [3,3,5,4,4,6,7,9,2,3,4,6,8,0,4]
-# common = []
-# for x in list1:
-#     if x in list2:
-#         common.append(x)
-# print("Common elements:", common)
+list1 = [3,3,6,7,2,3,4,5,7,6,6,7,5,3]
+list2 = [7,8,9,4,3,3,4,6,3,5,3,]
+common = []
+for x in list1:
+    if x in list2:
+        common.append(x)
+print("Common elements:", common)
 
 
 
