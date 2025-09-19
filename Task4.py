@@ -36,16 +36,16 @@
 
 
 
-nums = [8,4,9,13,17,25]
-squares = [n**2 for n in nums]
-print("Squares:", squares)
+# nums = [8,4,9,13,17,25]
+# squares = [n**2 for n in nums]
+# print("Squares:", squares)
 
 
 
-# sentence = "Python Problem Solving"
-# words = sentence.split()
-# reversed_sentence = " ".join(words[::-1])
-# print(reversed_sentence)
+sentence = "Practice Makes Man Perfect"
+words = sentence.split()
+reversed_sentence = " ".join(words[::-1])
+print(reversed_sentence)
 
 
 
