@@ -160,10 +160,30 @@
 
 
 
+# n = int(input("Enter number: "))
+# fact = 1
+
+# for i in range(1, n+1):
+#     fact *= i
+
+# print("Factorial =", fact)
+
+
+
+
 n = int(input("Enter number: "))
-fact = 1
+is_prime = True
 
-for i in range(1, n+1):
-    fact *= i
+if n < 2:
+    is_prime = False
+else:
+    for i in range(2, int(n**0.5)+1):
+        if n % i == 0:
+            is_prime = False
+            break
 
-print("Factorial =", fact)
+if is_prime:
+    print("Prime")
+else:
+    print("Not Prime")
+
