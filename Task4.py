@@ -171,19 +171,32 @@
 
 
 
-n = int(input("Enter number: "))
-is_prime = True
+# n = int(input("Enter number: "))
+# is_prime = True
 
-if n < 2:
-    is_prime = False
-else:
-    for i in range(2, int(n**0.5)+1):
-        if n % i == 0:
-            is_prime = False
-            break
+# if n < 2:
+#     is_prime = False
+# else:
+#     for i in range(2, int(n**0.5)+1):
+#         if n % i == 0:
+#             is_prime = False
+#             break
 
-if is_prime:
-    print("Prime")
-else:
-    print("Not Prime")
+# if is_prime:
+#     print("Prime")
+# else:
+#     print("Not Prime")
+
+
+
+
+s = input("Enter a string: ")
+vowels = "aeiouAEIOU"
+count = 0
+
+for ch in s:
+    if ch in vowels:
+        count += 1
+
+print("Vowel count =", count)
 
