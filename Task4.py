@@ -100,8 +100,8 @@
 
 
 
-a = 13
-b = 7
+a = 23
+b = 4
 result = 1
 for i in range(b):
     result *= a
