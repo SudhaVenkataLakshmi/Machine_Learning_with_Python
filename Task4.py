@@ -151,8 +151,19 @@
 
 
 
-a = int(input("Enter first: "))
-b = int(input("Enter second: "))
-c = int(input("Enter third: "))
+# a = int(input("Enter first: "))
+# b = int(input("Enter second: "))
+# c = int(input("Enter third: "))
 
-print("Maximum is:", max(a, b, c))
+# print("Maximum is:", max(a, b, c))
+
+
+
+
+n = int(input("Enter number: "))
+fact = 1
+
+for i in range(1, n+1):
+    fact *= i
+
+print("Factorial =", fact)
