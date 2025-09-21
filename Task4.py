@@ -122,14 +122,14 @@
 
 
 
-nums = [23,56,90,1,50,31,73,84]
-even_sum = odd_sum = 0
-for n in nums:
-    if n % 2 == 0:
-        even_sum += n
-    else:
-        odd_sum += n
-print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
+# nums = [23,56,90,1,50,31,73,84]
+# even_sum = odd_sum = 0
+# for n in nums:
+#     if n % 2 == 0:
+#         even_sum += n
+#     else:
+#         odd_sum += n
+# print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
 
 
 
@@ -190,13 +190,13 @@ print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
 
 
 
-# s = input("Enter a string: ")
-# vowels = "aeiouAEIOU"
-# count = 0
+s = input("Enter a string: ")
+vowels = "AEIOUaeiou"
+count = 0
 
-# for ch in s:
-#     if ch in vowels:
-#         count += 1
+for ch in s:
+    if ch in vowels:
+        count += 1
 
-# print("Vowel count =", count)
+print("Vowel count =", count)
 
