@@ -60,15 +60,15 @@
 
 
 
-# nums = [11,5,7,90,23,50,12,12,7,9]
-# largest = nums[0]
-# smallest = nums[0]
-# for n in nums:
-#     if n > largest:
-#         largest = n
-#     if n < smallest:
-#         smallest = n
-# print("Largest =", largest, " Smallest =", smallest)
+nums = [10,3,7,9,12,15,30]
+largest = nums[0]
+smallest = nums[0]
+for n in nums:
+    if n > largest:
+        largest = n
+    if n < smallest:
+        smallest = n
+print("Largest =", largest, " Smallest =", smallest)
 
 
 
@@ -87,15 +87,15 @@
 
 
 
-n = 28
-div_sum = 0
-for i in range(1, n):
-    if n % i == 0:
-        div_sum += i
-if div_sum == n:
-    print(n, "is a Perfect Number")
-else:
-    print(n, "is not a Perfect Number")
+# n = 28
+# div_sum = 0
+# for i in range(1, n):
+#     if n % i == 0:
+#         div_sum += i
+# if div_sum == n:
+#     print(n, "is a Perfect Number")
+# else:
+#     print(n, "is not a Perfect Number")
 
 
 
