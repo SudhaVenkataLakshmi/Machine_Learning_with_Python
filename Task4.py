@@ -100,8 +100,8 @@
 
 
 
-a = 25
-b = 3
+a = 17
+b = 5
 result = 1
 for i in range(b):
     result *= a
