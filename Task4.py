@@ -87,15 +87,15 @@
 
 
 
-# n = 496
-# div_sum = 0
-# for i in range(1, n):
-#     if n % i == 0:
-#         div_sum += i
-# if div_sum == n:
-#     print(n, "is a Perfect Number")
-# else:
-#     print(n, "is not a Perfect Number")
+n = 28
+div_sum = 0
+for i in range(1, n):
+    if n % i == 0:
+        div_sum += i
+if div_sum == n:
+    print(n, "is a Perfect Number")
+else:
+    print(n, "is not a Perfect Number")
 
 
 
@@ -190,13 +190,13 @@
 
 
 
-s = input("Enter a string: ")
-vowels = "AEIOUaeiou"
-count = 0
+# s = input("Enter a string: ")
+# vowels = "AEIOUaeiou"
+# count = 0
 
-for ch in s:
-    if ch in vowels:
-        count += 1
+# for ch in s:
+#     if ch in vowels:
+#         count += 1
 
-print("Vowel count =", count)
+# print("Vowel count =", count)
 
