@@ -100,8 +100,8 @@
 
 
 
-a = 9
-b = 7
+a = 13
+b = 9
 result = 1
 for i in range(b):
     result *= a
