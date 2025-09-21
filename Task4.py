@@ -100,12 +100,12 @@
 
 
 
-a = 17
-b = 5
-result = 1
-for i in range(b):
-    result *= a
-print("Power = ", result)
+# a = 17
+# b = 5
+# result = 1
+# for i in range(b):
+#     result *= a
+# print("Power = ", result)
 
 
 
@@ -122,14 +122,14 @@ print("Power = ", result)
 
 
 
-# nums = [10,45,7,92,12,60,35]
-# even_sum = odd_sum = 0
-# for n in nums:
-#     if n % 2 == 0:
-#         even_sum += n
-#     else:
-#         odd_sum += n
-# print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
+nums = [9,3,6,12,20,15,18,4]
+even_sum = odd_sum = 0
+for n in nums:
+    if n % 2 == 0:
+        even_sum += n
+    else:
+        odd_sum += n
+print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
 
 
 
