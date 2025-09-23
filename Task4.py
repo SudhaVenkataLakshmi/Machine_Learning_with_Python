@@ -36,7 +36,7 @@
 
 
 
-nums = [19,23,35,17,14]
+nums = [11,25,18,9,7]
 squares = [n**2 for n in nums]
 print("Squares:", squares)
 
