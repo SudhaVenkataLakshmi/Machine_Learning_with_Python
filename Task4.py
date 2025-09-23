@@ -122,14 +122,14 @@
 
 
 
-# nums = [23,56,90,1,50,31,73,84]
-# even_sum = odd_sum = 0
-# for n in nums:
-#     if n % 2 == 0:
-#         even_sum += n
-#     else:
-#         odd_sum += n
-# print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
+nums = [20,15,46,13,19,34,70,63,67,51]
+even_sum = odd_sum = 0
+for n in nums:
+    if n % 2 == 0:
+        even_sum += n
+    else:
+        odd_sum += n
+print("Even Sum = ",even_sum, "Odd Sum = ",odd_sum)
 
 
 
@@ -171,21 +171,21 @@
 
 
 
-n = int(input("Enter any number: "))
-is_prime = True
+# n = int(input("Enter any number: "))
+# is_prime = True
 
-if n < 2:
-    is_prime = False
-else:
-    for i in range(2, int(n**0.5)+1):
-        if n % i == 0:
-            is_prime = False
-            break
+# if n < 2:
+#     is_prime = False
+# else:
+#     for i in range(2, int(n**0.5)+1):
+#         if n % i == 0:
+#             is_prime = False
+#             break
 
-if is_prime:
-    print("Prime")
-else:
-    print("Not Prime")
+# if is_prime:
+#     print("Prime")
+# else:
+#     print("Not Prime")
 
 
 
