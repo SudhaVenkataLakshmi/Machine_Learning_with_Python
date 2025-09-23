@@ -109,7 +109,7 @@
 
 
 
-s = "Python Programs To Practice"
+s = "Practice Makes Man Perfect"
 upper = lower = 0
 for ch in s:
     if ch.isupper():
