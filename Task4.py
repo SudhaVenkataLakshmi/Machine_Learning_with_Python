@@ -122,7 +122,7 @@
 
 
 
-nums = [2,12,17,39,31,40,63,80]
+nums = [80,34,21,12,49,37,25]
 even_sum = odd_sum = 0
 for n in nums:
     if n % 2 == 0:
