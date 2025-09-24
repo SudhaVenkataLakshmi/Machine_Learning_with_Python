@@ -265,4 +265,4 @@ n = int(input("Enter n:"))
 total = 0
 for i in range(2, n+1, 2):
     total += i
-print("Sum of even Numbers= ",total)
+print("Sum of",n,"even Numbers= ",total)
