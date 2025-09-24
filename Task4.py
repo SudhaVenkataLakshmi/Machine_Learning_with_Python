@@ -252,10 +252,10 @@
 # print("Cube of Given Number = ", n**3)
 
 
-ch = input("Enter any Character: ")
+ch = input("Enter a Character: ")
 if ch.isalpha():
-    print("Alphabet")
+    print("It is Alphabet.")
 elif ch.isdigit():
-    print("Digit")
+    print("It is Digit.")
 else:
-    print("Special Character")
+    print("It is Special Character.")
