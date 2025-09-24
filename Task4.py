@@ -252,10 +252,17 @@
 # print("Cube of Given Number = ", n**3)
 
 
-ch = input("Enter a Character: ")
-if ch.isalpha():
-    print("It is Alphabet.")
-elif ch.isdigit():
-    print("It is Digit.")
-else:
-    print("It is Special Character.")
+# ch = input("Enter a Character: ")
+# if ch.isalpha():
+#     print("It is Alphabet.")
+# elif ch.isdigit():
+#     print("It is Digit.")
+# else:
+#     print("It is Special Character.")
+
+
+n = int(input("Enter n:"))
+total = 0
+for i in range(2, n+1, 2):
+    total += i
+print("Sum of even Numbers= ",total)
