@@ -211,12 +211,20 @@
 #     print("Wrong! The number was", num)
 
 
-ch = input("Enter a letter: ").lower()
+# ch = input("Enter a letter: ").lower()
 
-if ch in "aeiou":
-    print("Vowel")
-else:
-    print("Consonant")
+# if ch in "aeiou":
+#     print("Vowel")
+# else:
+#     print("Consonant")
+
+
+
+s = input("Enter string: ")
+count = 0
+for ch in s:
+    count += 1
+print("Length =", count)
 
 
 
