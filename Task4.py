@@ -240,7 +240,7 @@
 
 
 
-n = int(input("Enter any Number: "))
+n = int(input("Enter a Number: "))
 if n % 5 == 0 and n % 11 == 0:
     print("Given Number is Divisible by 5 and 11")
 else:
