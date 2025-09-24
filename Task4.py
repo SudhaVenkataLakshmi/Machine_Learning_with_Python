@@ -247,6 +247,15 @@
 #     print("Given Number is not Divisible by 5 and 11")
 
 
-n = int(input("Enter any Number: "))
-print("Square of Given Number = ", n**2)
-print("Cube of Given Number = ", n**3)
+# n = int(input("Enter any Number: "))
+# print("Square of Given Number = ", n**2)
+# print("Cube of Given Number = ", n**3)
+
+
+ch = input("Enter any Character: ")
+if ch.isalpha():
+    print("Alphabet")
+elif ch.isdigit():
+    print("Digit")
+else:
+    print("Special Character")
