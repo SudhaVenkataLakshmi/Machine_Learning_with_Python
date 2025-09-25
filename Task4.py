@@ -100,8 +100,8 @@
 
 
 
-a = 29
-b = 2
+a = 27
+b = 5
 result = 1
 for i in range(b):
     result *= a
