@@ -190,15 +190,15 @@
 
 
 
-# s = input("Enter a string: ")
-# vowels = "AEIOUaeiou"
-# count = 0
+s = input("Enter a string: ")
+vowels = "aeiouAEIOU"
+count = 0
 
-# for ch in s:
-#     if ch in vowels:
-#         count += 1
+for ch in s:
+    if ch in vowels:
+        count += 1
 
-# print("Vowel count =", count)
+print("Vowel count =", count)
 
 
 
@@ -261,8 +261,8 @@
 #     print("It is Special Character.")
 
 
-n = int(input("Enter n value:"))
-total = 0
-for i in range(2, n+1, 2):
-    total += i
-print("Sum of",n,"even Numbers= ",total)
+# n = int(input("Enter n value:"))
+# total = 0
+# for i in range(2, n+1, 2):
+#     total += i
+# print("Sum of",n,"even Numbers= ",total)
