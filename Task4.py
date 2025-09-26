@@ -26,12 +26,12 @@
 
 
 
-nums = [9,9,5,6,7,8,9,9,6,7,8,6]
-unique = []
-for n in nums:
-    if n not in unique:
-        unique.append(n)
-print("Unique elements:", unique)
+# nums = [9,9,5,6,7,8,9,9,6,7,8,6]
+# unique = []
+# for n in nums:
+#     if n not in unique:
+#         unique.append(n)
+# print("Unique elements:", unique)
 
 
 
@@ -60,15 +60,15 @@ print("Unique elements:", unique)
 
 
 
-# nums = [12,15,3,8,90,45,31,62]
-# largest = nums[0]
-# smallest = nums[0]
-# for n in nums:
-#     if n > largest:
-#         largest = n
-#     if n < smallest:
-#         smallest = n
-# print("Largest =", largest, " Smallest =", smallest)
+nums = [10,45,6285,90,12,50]
+largest = nums[0]
+smallest = nums[0]
+for n in nums:
+    if n > largest:
+        largest = n
+    if n < smallest:
+        smallest = n
+print("Largest =", largest, " Smallest =", smallest)
 
 
 
