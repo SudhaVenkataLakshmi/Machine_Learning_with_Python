@@ -26,7 +26,7 @@
 
 
 
-nums = [2,4,5,3,4,6,5,3,2,4,5]
+nums = [2,4,3,7,6,3,4,2,3,4]
 unique = []
 for n in nums:
     if n not in unique:
