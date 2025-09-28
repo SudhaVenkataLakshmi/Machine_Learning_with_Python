@@ -60,15 +60,15 @@
 
 
 
-nums = [80,93,27,48,52,12,6]
-largest = nums[0]
-smallest = nums[0]
-for n in nums:
-    if n > largest:
-        largest = n
-    if n < smallest:
-        smallest = n
-print("Largest =", largest, " Smallest =", smallest)
+# nums = [80,93,27,48,52,12,6]
+# largest = nums[0]
+# smallest = nums[0]
+# for n in nums:
+#     if n > largest:
+#         largest = n
+#     if n < smallest:
+#         smallest = n
+# print("Largest =", largest, " Smallest =", smallest)
 
 
 
@@ -266,3 +266,14 @@ print("Largest =", largest, " Smallest =", smallest)
 # for i in range(2, n+1, 2):
 #     total += i
 # print("Sum of",n,"even Numbers= ",total)
+
+
+
+
+s = input("Enter Sentence:")
+count = 0
+for ch in s:
+    if ch == " ":
+        count += 1
+print("Spaces= ",count)
+
