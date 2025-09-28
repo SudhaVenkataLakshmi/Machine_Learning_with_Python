@@ -270,10 +270,17 @@
 
 
 
-s = input("Enter any Sentence:")
-count = 0
-for ch in s:
-    if ch == " ":
-        count += 1
-print("Spaces= ",count)
+# s = input("Enter any Sentence:")
+# count = 0
+# for ch in s:
+#     if ch == " ":
+#         count += 1
+# print("Spaces= ",count)
 
+
+
+p = float(input("Enter Principal: "))
+r = float(input("Enter Rate: "))
+t = float(input("Enter Time(in Years): "))
+ci = p * ((1 + r/100) ** t) - p
+print("Compound Interest= ",ci)
