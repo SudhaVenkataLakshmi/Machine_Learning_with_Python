@@ -270,7 +270,7 @@
 
 
 
-s = input("Enter Sentence:")
+s = input("Enter any Sentence:")
 count = 0
 for ch in s:
     if ch == " ":
