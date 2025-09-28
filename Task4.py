@@ -326,11 +326,23 @@
 
 
 
-import math
+# import math
+
+# n = int(input("Enter number: "))
+
+# if int(math.sqrt(n))**2 == n:
+#     print("Perfect Square")
+# else:
+#     print("Not a Perfect Square")
+
+
 
 n = int(input("Enter number: "))
+count = 0
 
-if int(math.sqrt(n))**2 == n:
-    print("Perfect Square")
-else:
-    print("Not a Perfect Square")
+while n > 0:
+    n //= 10
+    count += 1
+
+print("Number of digits =", count)
+
