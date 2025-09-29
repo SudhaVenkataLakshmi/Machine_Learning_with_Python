@@ -354,6 +354,6 @@ b = int(input("Enter Second Number: "))
 max_num = max(a, b)
 while True:
     if max_num % a == 0 and max_num % b == 0:
-        print("LCM =", max_num)
+        print("LCM of Given Numbers =", max_num)
         break
     max_num += 1
