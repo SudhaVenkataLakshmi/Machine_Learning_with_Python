@@ -295,34 +295,34 @@
 
 
 
-# def fact(n):
-#     f = 1
-#     for i in range(1, n+1):
-#         f *= i
-#     return f
-
-# n = int(input("Enter number: "))
-# temp = n
-# s = 0
-
-# while temp > 0:
-#     digit = temp % 10
-#     s += fact(digit)
-#     temp //= 10
-
-# if s == n:
-#     print("Strong Number")
-# else:
-#     print("Not Strong Number")
-
-
+def fact(n):
+    f = 1
+    for i in range(1, n+1):
+        f *= i
+    return f
 
 n = int(input("Enter any Number: "))
+temp = n
+s = 0
 
-print("Factors of", n, "are:")
-for i in range(1, n+1):
-    if n % i == 0:
-        print(i, end=" ")
+while temp > 0:
+    digit = temp % 10
+    s += fact(digit)
+    temp //= 10
+
+if s == n:
+    print("It is a Strong Number")
+else:
+    print("It is Not a Strong Number")
+
+
+
+# n = int(input("Enter any Number: "))
+
+# print("Factors of", n, "are:")
+# for i in range(1, n+1):
+#     if n % i == 0:
+#         print(i, end=" ")
 
 
 
