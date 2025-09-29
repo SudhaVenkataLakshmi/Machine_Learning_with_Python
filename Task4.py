@@ -337,23 +337,23 @@
 
 
 
-# n = int(input("Enter number: "))
-# count = 0
+n = int(input("Enter any Number: "))
+count = 0
 
-# while n > 0:
-#     n //= 10
-#     count += 1
+while n > 0:
+    n //= 10
+    count += 1
 
-# print("Number of digits =", count)
+print("Number of digits =", count)
 
 
 
-a = int(input("Enter First Number: "))
-b = int(input("Enter Second Number: "))
+# a = int(input("Enter First Number: "))
+# b = int(input("Enter Second Number: "))
 
-max_num = max(a, b)
-while True:
-    if max_num % a == 0 and max_num % b == 0:
-        print("LCM of Given Numbers =", max_num)
-        break
-    max_num += 1
+# max_num = max(a, b)
+# while True:
+#     if max_num % a == 0 and max_num % b == 0:
+#         print("LCM of Given Numbers =", max_num)
+#         break
+#     max_num += 1
