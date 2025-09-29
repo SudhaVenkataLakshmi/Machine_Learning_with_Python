@@ -317,12 +317,12 @@
 
 
 
-# n = int(input("Enter number: "))
+n = int(input("Enter any Number: "))
 
-# print("Factors of", n, "are:")
-# for i in range(1, n+1):
-#     if n % i == 0:
-#         print(i, end=" ")
+print("Factors of", n, "are:")
+for i in range(1, n+1):
+    if n % i == 0:
+        print(i, end=" ")
 
 
 
@@ -337,14 +337,14 @@
 
 
 
-n = int(input("Enter any Number: "))
-count = 0
+# n = int(input("Enter any Number: "))
+# count = 0
 
-while n > 0:
-    n //= 10
-    count += 1
+# while n > 0:
+#     n //= 10
+#     count += 1
 
-print("Number of digits =", count)
+# print("Number of digits =", count)
 
 
 
