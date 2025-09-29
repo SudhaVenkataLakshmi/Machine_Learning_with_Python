@@ -348,8 +348,8 @@
 
 
 
-a = int(input("Enter first: "))
-b = int(input("Enter second: "))
+a = int(input("Enter First Number: "))
+b = int(input("Enter Second Number: "))
 
 max_num = max(a, b)
 while True:
