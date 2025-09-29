@@ -287,33 +287,33 @@
 
 
 
-# n = int(input("Enter n: "))
-# total = 0
-# for i in range (1, n+1, 2):
-#     total += i
-# print("Sum of Odd Numbers: ",total)
-
-
-
-def fact(n):
-    f = 1
-    for i in range(1, n+1):
-        f *= i
-    return f
-
 n = int(input("Enter any Number: "))
-temp = n
-s = 0
+total = 0
+for i in range (1, n+1, 2):
+    total += i
+print("Sum of Odd Numbers: ",total)
 
-while temp > 0:
-    digit = temp % 10
-    s += fact(digit)
-    temp //= 10
 
-if s == n:
-    print("It is a Strong Number")
-else:
-    print("It is Not a Strong Number")
+
+# def fact(n):
+#     f = 1
+#     for i in range(1, n+1):
+#         f *= i
+#     return f
+
+# n = int(input("Enter any Number: "))
+# temp = n
+# s = 0
+
+# while temp > 0:
+#     digit = temp % 10
+#     s += fact(digit)
+#     temp //= 10
+
+# if s == n:
+#     print("It is a Strong Number")
+# else:
+#     print("It is Not a Strong Number")
 
 
 
