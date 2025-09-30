@@ -220,22 +220,22 @@
 
 
 
-# s = input("Enter string: ")
-# count = 0
-# for ch in s:
-#     count += 1
-# print("Length =", count)
+s = input("Enter any String: ")
+count = 0
+for ch in s:
+    count += 1
+print("Length of Given String =", count)
 
 
 
-n = int(input("Enter any Number: "))
+# n = int(input("Enter any Number: "))
 
-if n > 0:
-    print("It is Positive")
-elif n < 0:
-    print("It is Negative")
-else:
-    print("It is Zero")
+# if n > 0:
+#     print("It is Positive")
+# elif n < 0:
+#     print("It is Negative")
+# else:
+#     print("It is Zero")
 
 
 
