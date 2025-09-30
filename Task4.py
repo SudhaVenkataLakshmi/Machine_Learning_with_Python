@@ -36,9 +36,9 @@
 
 
 
-# nums = [37,35,42,45,28]
-# squares = [n**2 for n in nums]
-# print("Squares:", squares)
+nums = [35,23,21,19,17,45]
+squares = [n**2 for n in nums]
+print("Squares:", squares)
 
 
 
@@ -190,14 +190,14 @@
 
 
 
-s = input("Enter any string: ")
-vowels = "aeiouAEIOU"
-count = 0
-for ch in s:
-    if ch in vowels:
-        count += 1
+# s = input("Enter any string: ")
+# vowels = "aeiouAEIOU"
+# count = 0
+# for ch in s:
+#     if ch in vowels:
+#         count += 1
 
-print("Vowel count =", count)
+# print("Vowel count =", count)
 
 
 
