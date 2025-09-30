@@ -252,13 +252,13 @@
 # print("Cube of Given Number = ", n**3)
 
 
-# ch = input("Enter a Character: ")
-# if ch.isalpha():
-#     print("It is Alphabet.")
-# elif ch.isdigit():
-#     print("It is Digit.")
-# else:
-#     print("It is Special Character.")
+ch = input("Enter any Character: ")
+if ch.isalpha():
+    print("It is an Alphabet.")
+elif ch.isdigit():
+    print("It is a Digit.")
+else:
+    print("It is a Special Character.")
 
 
 # n = int(input("Enter n value:"))
@@ -287,11 +287,11 @@
 
 
 
-n = int(input("Enter any Number: "))
-total = 0
-for i in range (1, n+1, 2):
-    total += i
-print("Sum of Odd Numbers: ",total)
+# n = int(input("Enter any Number: "))
+# total = 0
+# for i in range (1, n+1, 2):
+#     total += i
+# print("Sum of Odd Numbers: ",total)
 
 
 
