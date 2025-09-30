@@ -228,23 +228,23 @@
 
 
 
-# n = int(input("Enter number: "))
+n = int(input("Enter any Number: "))
 
-# if n > 0:
-#     print("Positive")
-# elif n < 0:
-#     print("Negative")
-# else:
-#     print("Zero")
-
-
-
-
-n = int(input("Enter a Number: "))
-if n % 5 == 0 and n % 11 == 0:
-    print("It is Divisible by 5 and 11")
+if n > 0:
+    print("It is Positive")
+elif n < 0:
+    print("It is Negative")
 else:
-    print("It is not Divisible by 5 and 11")
+    print("It is Zero")
+
+
+
+
+# n = int(input("Enter a Number: "))
+# if n % 5 == 0 and n % 11 == 0:
+#     print("It is Divisible by 5 and 11")
+# else:
+#     print("It is not Divisible by 5 and 11")
 
 
 # n = int(input("Enter any Number: "))
