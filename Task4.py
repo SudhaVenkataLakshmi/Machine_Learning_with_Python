@@ -202,21 +202,22 @@
 
 
 
-# import random
-# num = random.randint(1, 10)
-# guess = int(input("Guess a number (1-10): "))
-# if guess == num:
-#     print("Correct! You guessed it.")
-# else:
-#     print("Wrong! The number was", num)
-
-
-ch = input("Enter any Letter: ").lower()
-
-if ch in "aeiou":
-    print("It is Vowel")
+import random
+num = random.randint(1, 10)
+guess = int(input("Guess any number (1-10): "))
+if guess == num:
+    print("Correct! You guessed it.")
 else:
-    print("It is Consonant")
+    print("Wrong! The number was", num)
+
+
+
+# ch = input("Enter any Letter: ").lower()
+
+# if ch in "aeiou":
+#     print("It is Vowel")
+# else:
+#     print("It is Consonant")
 
 
 
