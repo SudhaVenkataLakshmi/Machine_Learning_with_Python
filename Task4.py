@@ -26,19 +26,19 @@
 
 
 
-# nums = [9,9,5,6,7,8,9,9,6,7,8,6]
-# unique = []
-# for n in nums:
-#     if n not in unique:
-#         unique.append(n)
-# print("Unique elements:", unique)
+nums = [4,4,6,7,8,5,4,4]
+unique = []
+for n in nums:
+    if n not in unique:
+        unique.append(n)
+print("Unique elements:", unique)
 
 
 
 
-nums = [35,23,21,19,17,45]
-squares = [n**2 for n in nums]
-print("Squares:", squares)
+# nums = [35,23,21,19,17,45]
+# squares = [n**2 for n in nums]
+# print("Squares:", squares)
 
 
 
