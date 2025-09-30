@@ -190,25 +190,24 @@
 
 
 
-# s = input("Enter a string: ")
-# vowels = "aeiouAEIOU"
-# count = 0
+s = input("Enter any string: ")
+vowels = "aeiouAEIOU"
+count = 0
+for ch in s:
+    if ch in vowels:
+        count += 1
 
-# for ch in s:
-#     if ch in vowels:
-#         count += 1
-
-# print("Vowel count =", count)
-
+print("Vowel count =", count)
 
 
-import random
-num = random.randint(1, 10)
-guess = int(input("Guess any number (1-10): "))
-if guess == num:
-    print("Correct! You guessed it.")
-else:
-    print("Wrong! The number was", num)
+
+# import random
+# num = random.randint(1, 10)
+# guess = int(input("Guess any number (1-10): "))
+# if guess == num:
+#     print("Correct! You guessed it.")
+# else:
+#     print("Wrong! The number was", num)
 
 
 
