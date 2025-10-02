@@ -60,7 +60,7 @@
 
 
 
-nums = [5,3,7,9,10,27,42,14]
+nums = [20,30,50,12,103,7,64]
 largest = nums[0]
 smallest = nums[0]
 for n in nums:
