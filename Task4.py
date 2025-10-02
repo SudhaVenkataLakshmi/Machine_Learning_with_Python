@@ -42,21 +42,21 @@
 
 
 
-sentence = "I love coding."
-words = sentence.split()
-reversed_sentence = " ".join(words[::-1])
-print(reversed_sentence)
+# sentence = "I love coding."
+# words = sentence.split()
+# reversed_sentence = " ".join(words[::-1])
+# print(reversed_sentence)
 
 
 
 
-# list1 = [12,50,30,45,75]
-# list2 = [45,75,80,42,63]
-# common = []
-# for x in list1:
-#     if x in list2:
-#         common.append(x)
-# print("Common elements:", common)
+list1 = [11,20,10,9,5,7,10,12,6]
+list2 = [6,12,11,10,9,8,7,4,]
+common = []
+for x in list1:
+    if x in list2:
+        common.append(x)
+print("Common elements:", common)
 
 
 
