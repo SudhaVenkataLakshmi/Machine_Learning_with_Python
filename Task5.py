@@ -36,11 +36,25 @@
 #     print("Not Harshad Number")
 
 
-import math
-num = int(input("Enter any Number: "))
-sum_fact = sum(math.factorial(int(d)) for d in str(num))
-sum_sq = sum(int(d) for d in str(num)) ** 2
-if sum_fact == sum_sq:
-    print("Special Number")
-else:
-    print("Not Special Number")
+# import math
+# num = int(input("Enter any Number: "))
+# sum_fact = sum(math.factorial(int(d)) for d in str(num))
+# sum_sq = sum(int(d) for d in str(num)) ** 2
+# if sum_fact == sum_sq:
+#     print("Special Number")
+# else:
+#     print("Not Special Number")
+
+
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm(a, b):
+    return (a * b) // gcd(a, b)
+
+a, b = 12, 18
+print("GCD:", gcd(a, b))
+print("LCM:", lcm(a, b))
