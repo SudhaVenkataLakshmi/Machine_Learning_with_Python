@@ -12,9 +12,17 @@
 #         print(num, end= " ")
 
 
-def magic_number(n):
-    while n > 9:
-        n = sum(int(d) for d in str(n))
-        return n == 1
-num = int(input("Enter Any Number: "))
-print("Magic Number" if magic_number(num) else "Not Magic Number")
+# def magic_number(n):
+#     while n > 9:
+#         n = sum(int(d) for d in str(n))
+#         return n == 1
+# num = int(input("Enter Any Number: "))
+# print("Magic Number" if magic_number(num) else "Not Magic Number")
+
+
+num = int(input("Enter any Number: "))
+sq = num ** 2
+if str(sq).endswith(str(num)):
+    print("Automorphic Number")
+else:
+    print("Not Automorphic Number")
