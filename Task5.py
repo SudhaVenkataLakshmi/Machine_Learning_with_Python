@@ -60,8 +60,21 @@
 # print("LCM:", lcm(a, b))
 
 
-n = 5
-for i in range(1, n+1, 2):
-    print(" " * ((n-i)//2) + "*" * i)
-for i in range(n-2, 0, -2):
-    print(" " * ((n-i)//2) + "*" * i)
+# n = 5
+# for i in range(1, n+1, 2):
+#     print(" " * ((n-i)//2) + "*" * i)
+# for i in range(n-2, 0, -2):
+#     print(" " * ((n-i)//2) + "*" * i)
+
+
+
+num = int(input("Enter number: "))
+i = 2
+factors = []
+while num > 1:
+    if num % i == 0:
+        factors.append(i)
+        num //= i
+    else:
+        i += 1
+print("Prime Factors:", factors)
