@@ -28,9 +28,19 @@
 #     print("Not Automorphic Number")
 
 
+# num = int(input("Enter any Number: "))
+# s = sum(int(d) for d in str(num))
+# if num % s == 0:
+#     print("Harshad Number")
+# else:
+#     print("Not Harshad Number")
+
+
+import math
 num = int(input("Enter any Number: "))
-s = sum(int(d) for d in str(num))
-if num % s == 0:
-    print("Harshad Number")
+sum_fact = sum(math.factorial(int(d)) for d in str(num))
+sum_sq = sum(int(d) for d in str(num)) ** 2
+if sum_fact == sum_sq:
+    print("Special Number")
 else:
-    print("Not Harshad Number")
+    print("Not Special Number")
