@@ -68,7 +68,7 @@
 
 
 
-num = int(input("Enter any number: "))
+num = int(input("Enter a Number: "))
 i = 2
 factors = []
 while num > 1:
@@ -77,4 +77,4 @@ while num > 1:
         num //= i
     else:
         i += 1
-print("Prime Factors of Given Number:", factors)
+print("Prime Factors of Given Number are :", factors)
