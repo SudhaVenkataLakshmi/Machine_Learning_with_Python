@@ -36,16 +36,16 @@
 
 
 
-# nums = [35,45,60,52,32,64]
-# squares = [n**2 for n in nums]
-# print("Squares:", squares)
+nums = [19,15,12,9,14]
+squares = [n**2 for n in nums]
+print("Squares:", squares)
 
 
 
-sentence = "Practice Makes Man Perfect"
-words = sentence.split()
-reversed_sentence = " ".join(words[::-1])
-print(reversed_sentence)
+# sentence = "Practice Makes Man Perfect"
+# words = sentence.split()
+# reversed_sentence = " ".join(words[::-1])
+# print(reversed_sentence)
 
 
 
