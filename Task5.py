@@ -12,12 +12,12 @@
 #         print(num, end= " ")
 
 
-# def magic_number(n):
-#     while n > 9:
-#         n = sum(int(d) for d in str(n))
-#         return n == 1
-# num = int(input("Enter Any Number: "))
-# print("Magic Number" if magic_number(num) else "Not Magic Number")
+def magic_number(n):
+    while n > 9:
+        n = sum(int(d) for d in str(n))
+        return n == 1
+num = int(input("Enter Any Number: "))
+print("It is Magic Number" if magic_number(num) else "It is Not Magic Number")
 
 
 # num = int(input("Enter any Number: "))
@@ -36,14 +36,14 @@
 #     print("It is Not a Harshad Number")
 
 
-import math
-num = int(input("Enter any Number: "))
-sum_fact = sum(math.factorial(int(d)) for d in str(num))
-sum_sq = sum(int(d) for d in str(num)) ** 2
-if sum_fact == sum_sq:
-    print("It is Special Number")
-else:
-    print("It is Not a Special Number")
+# import math
+# num = int(input("Enter any Number: "))
+# sum_fact = sum(math.factorial(int(d)) for d in str(num))
+# sum_sq = sum(int(d) for d in str(num)) ** 2
+# if sum_fact == sum_sq:
+#     print("It is Special Number")
+# else:
+#     print("It is Not a Special Number")
 
 
 
