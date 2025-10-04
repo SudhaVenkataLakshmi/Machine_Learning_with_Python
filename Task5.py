@@ -12,12 +12,12 @@
 #         print(num, end= " ")
 
 
-def magic_number(n):
-    while n > 9:
-        n = sum(int(d) for d in str(n))
-        return n == 1
-num = int(input("Enter Any Number: "))
-print("It is Magic Number" if magic_number(num) else "It is Not Magic Number")
+# def magic_number(n):
+#     while n > 9:
+#         n = sum(int(d) for d in str(n))
+#         return n == 1
+# num = int(input("Enter Any Number: "))
+# print("It is Magic Number" if magic_number(num) else "It is Not Magic Number")
 
 
 # num = int(input("Enter any Number: "))
@@ -68,13 +68,13 @@ print("It is Magic Number" if magic_number(num) else "It is Not Magic Number")
 
 
 
-# num = int(input("Enter a Number: "))
-# i = 2
-# factors = []
-# while num > 1:
-#     if num % i == 0:
-#         factors.append(i)
-#         num //= i
-#     else:
-#         i += 1
-# print("Prime Factors of Given Number are :", factors)
+num = int(input("Enter a Number: "))
+i = 2
+factors = []
+while num > 1:
+    if num % i == 0:
+        factors.append(i)
+        num //= i
+    else:
+        i += 1
+print("Prime Factors of Given Number are :", factors)
