@@ -93,9 +93,16 @@
 
 
 
-num = int(input("Enter any Number:"))
-sq = num ** 2
-if sum(int(d) for d in str(sq)) == num:
-    print("It is Noen Number")
+# num = int(input("Enter any Number:"))
+# sq = num ** 2
+# if sum(int(d) for d in str(sq)) == num:
+#     print("It is Noen Number")
+# else:
+#     print("It is Not Noen Number")
+
+
+num = input("Enter any Number: ")
+if '0' in num[1:]:
+    print("Duck Number")
 else:
-    print("It is Not Noen Number")
+    print("Not Duck Number")
