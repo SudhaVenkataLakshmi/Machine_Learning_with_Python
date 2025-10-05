@@ -103,6 +103,6 @@
 
 num = input("Enter any Number: ")
 if '0' in num[1:]:
-    print("Duck Number")
+    print("It is Duck Number")
 else:
-    print("Not Duck Number")
+    print("It is Not Duck Number")
