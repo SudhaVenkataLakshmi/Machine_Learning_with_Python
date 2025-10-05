@@ -20,12 +20,12 @@
 # print("It is Magic Number" if magic_number(num) else "It is Not Magic Number")
 
 
-num = int(input("Enter any Number: "))
-sq = num ** 2
-if str(sq).endswith(str(num)):
-    print("Automorphic Number")
-else:
-    print("Not Automorphic Number")
+# num = int(input("Enter any Number: "))
+# sq = num ** 2
+# if str(sq).endswith(str(num)):
+#     print("Automorphic Number")
+# else:
+#     print("Not Automorphic Number")
 
 
 # num = int(input("Enter any Number: "))
@@ -78,3 +78,15 @@ else:
 #     else:
 #         i += 1
 # print("Prime Factors are:", factors)
+
+
+
+num = input("Enter any Number: ")
+s = sum(int(d) for d in num)
+p = 1
+for d in num:
+    p *= int(d)
+if s == p:
+    print("Spy Number")
+else:
+    print("Not Spy Number")
