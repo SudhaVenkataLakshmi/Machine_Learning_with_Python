@@ -87,6 +87,6 @@ p = 1
 for d in num:
     p *= int(d)
 if s == p:
-    print("Spy Number")
+    print("It is Spy Number")
 else:
-    print("Not Spy Number")
+    print("It is Not Spy Number")
