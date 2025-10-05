@@ -96,6 +96,6 @@
 num = int(input("Enter any Number:"))
 sq = num ** 2
 if sum(int(d) for d in str(sq)) == num:
-    print("Noen Number")
+    print("It is Noen Number")
 else:
-    print("Not Noen Number")
+    print("It is Not Noen Number")
