@@ -20,20 +20,20 @@
 # print("It is Magic Number" if magic_number(num) else "It is Not Magic Number")
 
 
-# num = int(input("Enter any Number: "))
-# sq = num ** 2
-# if str(sq).endswith(str(num)):
-#     print("It is Automorphic Number")
-# else:
-#     print("It is Not Automorphic Number")
-
-
 num = int(input("Enter any Number: "))
-s = sum(int(d) for d in str(num))
-if num % s == 0:
-    print("Harshad Number")
+sq = num ** 2
+if str(sq).endswith(str(num)):
+    print("Automorphic Number")
 else:
-    print("Not a Harshad Number")
+    print("Not Automorphic Number")
+
+
+# num = int(input("Enter any Number: "))
+# s = sum(int(d) for d in str(num))
+# if num % s == 0:
+#     print("Harshad Number")
+# else:
+#     print("Not a Harshad Number")
 
 
 # import math
