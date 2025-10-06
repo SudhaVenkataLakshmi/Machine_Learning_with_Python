@@ -81,24 +81,24 @@
 
 
 
-# num = input("Enter any Number: ")
-# s = sum(int(d) for d in num)
-# p = 1
-# for d in num:
-#     p *= int(d)
-# if s == p:
-#     print("It is Spy Number")
-# else:
-#     print("It is Not Spy Number")
-
-
-
-num = int(input("Enter any Number:"))
-sq = num ** 2
-if sum(int(d) for d in str(sq)) == num:
-    print("Noen Number")
+num = input("Enter any Number: ")
+s = sum(int(d) for d in num)
+p = 1
+for d in num:
+    p *= int(d)
+if s == p:
+    print("Given Number is Spy Number")
 else:
-    print("Not a Noen Number")
+    print("Given Number is Not Spy Number")
+
+
+
+# num = int(input("Enter any Number:"))
+# sq = num ** 2
+# if sum(int(d) for d in str(sq)) == num:
+#     print("Noen Number")
+# else:
+#     print("Not a Noen Number")
 
 
 # num = input("Enter any Number: ")
