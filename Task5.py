@@ -36,14 +36,14 @@
 #     print("Not a Harshad Number")
 
 
-# import math
-# num = int(input("Enter any Number: "))
-# sum_fact = sum(math.factorial(int(d)) for d in str(num))
-# sum_sq = sum(int(d) for d in str(num)) ** 2
-# if sum_fact == sum_sq:
-#     print("Special Number")
-# else:
-#     print("Not a Special Number")
+import math
+num = int(input("Enter any Number: "))
+sum_fact = sum(math.factorial(int(d)) for d in str(num))
+sum_sq = sum(int(d) for d in str(num)) ** 2
+if sum_fact == sum_sq:
+    print("Given Number is Special Number")
+else:
+    print("Given Number is Not a Special Number")
 
 
 
@@ -68,16 +68,16 @@
 
 
 
-num = int(input("Enter a Number: "))
-i = 2
-factors = []
-while num > 1:
-    if num % i == 0:
-        factors.append(i)
-        num //= i
-    else:
-        i += 1
-print("Prime Factors of Given Number are:", factors)
+# num = int(input("Enter a Number: "))
+# i = 2
+# factors = []
+# while num > 1:
+#     if num % i == 0:
+#         factors.append(i)
+#         num //= i
+#     else:
+#         i += 1
+# print("Prime Factors of Given Number are:", factors)
 
 
 
