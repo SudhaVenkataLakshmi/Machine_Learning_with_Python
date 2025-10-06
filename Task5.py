@@ -68,28 +68,28 @@
 
 
 
-# num = int(input("Enter any Number: "))
-# i = 2
-# factors = []
-# while num > 1:
-#     if num % i == 0:
-#         factors.append(i)
-#         num //= i
-#     else:
-#         i += 1
-# print("Prime Factors are:", factors)
+num = int(input("Enter a Number: "))
+i = 2
+factors = []
+while num > 1:
+    if num % i == 0:
+        factors.append(i)
+        num //= i
+    else:
+        i += 1
+print("Prime Factors of Given Number are:", factors)
 
 
 
-num = input("Enter any Number: ")
-s = sum(int(d) for d in num)
-p = 1
-for d in num:
-    p *= int(d)
-if s == p:
-    print("Given Number is Spy Number")
-else:
-    print("Given Number is Not Spy Number")
+# num = input("Enter any Number: ")
+# s = sum(int(d) for d in num)
+# p = 1
+# for d in num:
+#     p *= int(d)
+# if s == p:
+#     print("Given Number is Spy Number")
+# else:
+#     print("Given Number is Not Spy Number")
 
 
 
