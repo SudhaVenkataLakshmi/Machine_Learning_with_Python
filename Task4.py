@@ -50,25 +50,25 @@
 
 
 
-list1 = [20,10,15,12,11,5]
-list2 = [15,5,20,25,30,50]
-common = []
-for x in list1:
-    if x in list2:
-        common.append(x)
-print("Common elements:", common)
+# list1 = [20,10,15,12,11,5]
+# list2 = [15,5,20,25,30,50]
+# common = []
+# for x in list1:
+#     if x in list2:
+#         common.append(x)
+# print("Common elements:", common)
 
 
 
-# nums = [2,40,21,35,60,70,9,12,51]
-# largest = nums[0]
-# smallest = nums[0]
-# for n in nums:
-#     if n > largest:
-#         largest = n
-#     if n < smallest:
-#         smallest = n
-# print("Largest =", largest, " Smallest =", smallest)
+nums = [1,6,8,3,5,10,4]
+largest = nums[0]
+smallest = nums[0]
+for n in nums:
+    if n > largest:
+        largest = n
+    if n < smallest:
+        smallest = n
+print("Largest =", largest, " Smallest =", smallest)
 
 
 
