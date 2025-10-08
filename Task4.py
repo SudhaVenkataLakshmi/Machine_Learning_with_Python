@@ -8,12 +8,12 @@
 
 
 
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    return n * factorial(n - 1)
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     return n * factorial(n - 1)
 
-print(factorial(15)) 
+# print(factorial(15)) 
 
 
 
@@ -50,13 +50,13 @@ print(factorial(15))
 
 
 
-# list1 = [10,12,3,5,8,2,15,10,12]
-# list2 = [7,4,9,2,1,10,12,11,5,10]
-# common = []
-# for x in list1:
-#     if x in list2:
-#         common.append(x)
-# print("Common elements:", common)
+list1 = [1,4,8,4,2,3,1,2,3]
+list2 = [2,1,3,5,8,9,3,2,1]
+common = []
+for x in list1:
+    if x in list2:
+        common.append(x)
+print("Common elements:", common)
 
 
 
