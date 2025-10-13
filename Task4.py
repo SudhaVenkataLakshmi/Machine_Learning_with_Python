@@ -72,7 +72,7 @@
 
 
 
-nums = [10,4,2,6,19,38]
+nums = [12,10,9,5,7,3]
 smallest = sec_small = float('inf')
 for n in nums:
     if n < smallest:
