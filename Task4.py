@@ -36,9 +36,9 @@
 
 
 
-nums = [17,9,6,12,10,15]
-squares = [n**2 for n in nums]
-print("Squares:", squares)
+# nums = [17,9,6,12,10,15]
+# squares = [n**2 for n in nums]
+# print("Squares:", squares)
 
 
 
@@ -50,13 +50,13 @@ print("Squares:", squares)
 
 
 
-# list1 = [11,10,5,3,8,9,2]
-# list2 = [8,9,4,5,3,7,11,10]
-# common = []
-# for x in list1:
-#     if x in list2:
-#         common.append(x)
-# print("Common elements:", common)
+list1 = [11,11,6,8,9,3]
+list2 = [8,7,5,4,11,9]
+common = []
+for x in list1:
+    if x in list2:
+        common.append(x)
+print("Common elements:", common)
 
 
 
