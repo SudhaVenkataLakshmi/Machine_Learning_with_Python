@@ -28,12 +28,12 @@
 #     print("Not Automorphic Number")
 
 
-num = int(input("Enter any Number: "))
-s = sum(int(d) for d in str(num))
-if num % s == 0:
-    print("Given Number is Harshad Number")
-else:
-    print("Given Number is Not a Harshad Number")
+# num = int(input("Enter any Number: "))
+# s = sum(int(d) for d in str(num))
+# if num % s == 0:
+#     print("Given Number is Harshad Number")
+# else:
+#     print("Given Number is Not a Harshad Number")
 
 
 # import math
@@ -106,3 +106,9 @@ else:
 #     print("Duck Number.")
 # else:
 #     print("Not a Duck Number.")
+
+
+
+n = int(input("Enter rows: "))
+for i in range(1, n + 1):
+    print("* " * i)
