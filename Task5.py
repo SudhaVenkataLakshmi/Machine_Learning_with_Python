@@ -109,6 +109,11 @@
 
 
 
-n = int(input("Enter rows: "))
-for i in range(1, n + 1):
-    print("* " * i)
+# n = int(input("Enter rows: "))
+# for i in range(1, n + 1):
+#     print("* " * i)
+
+
+nums = [10, 20, 30, 40, 50]
+nums[0], nums[-1] = nums[-1], nums[0]
+print(nums)
