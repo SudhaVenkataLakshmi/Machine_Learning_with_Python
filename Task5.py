@@ -114,6 +114,11 @@
 #     print("* " * i)
 
 
-nums = [10, 20, 30, 40, 50]
-nums[0], nums[-1] = nums[-1], nums[0]
-print(nums)
+# nums = [10, 20, 30, 40, 50]
+# nums[0], nums[-1] = nums[-1], nums[0]
+# print(nums)
+
+
+rows = 5
+for i in range(1, rows + 1):
+    print("  " * (rows - i) + "* " * i)
