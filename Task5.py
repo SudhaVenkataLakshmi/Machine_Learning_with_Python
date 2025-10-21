@@ -47,17 +47,17 @@
 
 
 
-# def gcd(a, b):
-#     while b:
-#         a, b = b, a % b
-#     return a
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
 
-# def lcm(a, b):
-#     return (a * b) // gcd(a, b)
+def lcm(a, b):
+    return (a * b) // gcd(a, b)
 
-# a, b = 12, 18
-# print("GCD:", gcd(a, b))
-# print("LCM:", lcm(a, b))
+a, b = 30,12
+print("GCD:", gcd(a, b))
+print("LCM:", lcm(a, b))
 
 
 # n = 5
@@ -109,9 +109,9 @@
 
 
 
-n = int(input("Enter number of rows: "))
-for i in range(1, n + 1):
-    print("* " * i)
+# n = int(input("Enter number of rows: "))
+# for i in range(1, n + 1):
+#     print("* " * i)
 
 
 # nums = [7,8,4,6,3,2]
