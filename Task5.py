@@ -55,7 +55,7 @@ def gcd(a, b):
 def lcm(a, b):
     return (a * b) // gcd(a, b)
 
-a, b = 30,12
+a, b = 15,9
 print("GCD:", gcd(a, b))
 print("LCM:", lcm(a, b))
 
