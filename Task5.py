@@ -119,12 +119,13 @@
 # print(nums)
 
 
-# rows = 5
-# for i in range(1, rows + 1):
-#     print("  " * (rows - i) + "* " * i)
+rows = 7
+for i in range(1, rows + 1):
+    print("  " * (rows - i) + "* " * i)
 
-sentence = input("Enter any sentence: ")
-words = sentence.split()
-words.sort()
-print("Sorted words are:", words)
+
+# sentence = input("Enter any sentence: ")
+# words = sentence.split()
+# words.sort()
+# print("Sorted words are:", words)
 
