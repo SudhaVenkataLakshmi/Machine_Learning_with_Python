@@ -47,17 +47,17 @@
 
 
 
-def gcd(a, b):
-    while b:
-        a, b = b, a % b
-    return a
+# def gcd(a, b):
+#     while b:
+#         a, b = b, a % b
+#     return a
 
-def lcm(a, b):
-    return (a * b) // gcd(a, b)
+# def lcm(a, b):
+#     return (a * b) // gcd(a, b)
 
-a, b = 12,18
-print("GCD:", gcd(a, b))
-print("LCM:", lcm(a, b))
+# a, b = 12,18
+# print("GCD:", gcd(a, b))
+# print("LCM:", lcm(a, b))
 
 
 # n = 5
@@ -124,8 +124,8 @@ print("LCM:", lcm(a, b))
 #     print("  " * (rows - i) + "* " * i)
 
 
-# sentence = input("Enter any sentence: ")
-# words = sentence.split()
-# words.sort()
-# print("Sorted words are:", words)
+sentence = input("Enter any sentence: ")
+words = sentence.split()
+words.sort()
+print("Sorted words are:", words)
 
