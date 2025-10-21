@@ -109,14 +109,14 @@
 
 
 
-# n = int(input("Enter rows: "))
-# for i in range(1, n + 1):
-#     print("* " * i)
+n = int(input("Enter number of rows: "))
+for i in range(1, n + 1):
+    print("* " * i)
 
 
-nums = [7,8,4,6,3,2]
-nums[0], nums[-1] = nums[-1], nums[0]
-print(nums)
+# nums = [7,8,4,6,3,2]
+# nums[0], nums[-1] = nums[-1], nums[0]
+# print(nums)
 
 
 # rows = 10
