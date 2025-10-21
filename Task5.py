@@ -123,8 +123,8 @@
 # for i in range(1, rows + 1):
 #     print("  " * (rows - i) + "* " * i)
 
-sentence = input("Enter a sentence: ")
+sentence = input("Enter any sentence: ")
 words = sentence.split()
 words.sort()
-print("Sorted words:", words)
+print("Sorted words are:", words)
 
