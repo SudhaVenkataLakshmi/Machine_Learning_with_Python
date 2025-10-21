@@ -114,14 +114,14 @@
 #     print("* " * i)
 
 
-# nums = [10, 20, 30, 40, 50]
-# nums[0], nums[-1] = nums[-1], nums[0]
-# print(nums)
+nums = [11,13,5,7,10,7]
+nums[0], nums[-1] = nums[-1], nums[0]
+print(nums)
 
 
-rows = 10
-for i in range(1, rows + 1):
-    print("  " * (rows - i) + "* " * i)
+# rows = 10
+# for i in range(1, rows + 1):
+#     print("  " * (rows - i) + "* " * i)
 
 
 # sentence = input("Enter any sentence: ")
