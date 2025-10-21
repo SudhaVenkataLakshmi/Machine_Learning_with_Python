@@ -114,7 +114,7 @@
 #     print("* " * i)
 
 
-nums = [11,13,5,7,10,7]
+nums = [7,8,4,6,3,2]
 nums[0], nums[-1] = nums[-1], nums[0]
 print(nums)
 
