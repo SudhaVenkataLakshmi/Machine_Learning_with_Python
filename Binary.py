@@ -7,4 +7,9 @@ for i in range(t):
     temp = a + b
     ans.append(temp)
 print(max(ans))
-print(bin(max(ans)))
+final = bin(max(ans))
+print(final[2:])
+
+
+
+
