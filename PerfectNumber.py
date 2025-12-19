@@ -4,6 +4,9 @@ for i in range(1, n):
     if n % i == 0:
         sum += i
 if sum == n:
-    print("Perfect Number")
+    print("It is Perfect Number")
 else:
-    print("Not Perfect")
+    print("It is Not Perfect Number")
+
+
+
