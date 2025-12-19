@@ -1,5 +1,5 @@
-n = "235432"
-digit = "3"
+n = "1125"
+digit = "1"
 ans = []
 for p in range(len(n)):
     if n[p] == digit:
