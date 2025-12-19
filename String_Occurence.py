@@ -1,6 +1,6 @@
 print("Enter any String: ")
 string = str(input())
-print("Enter your digit:")
+print("Enter a digit:")
 digit = str(input())
 ans = []
 for i in range(len(string)):
