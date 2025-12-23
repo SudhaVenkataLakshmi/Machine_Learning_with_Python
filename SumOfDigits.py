@@ -4,4 +4,4 @@ while n > 0:
     digit = n % 10
     total += digit
     n //= 10
-print("Sum of Digits: ", total)
+print("Sum: ", total)
