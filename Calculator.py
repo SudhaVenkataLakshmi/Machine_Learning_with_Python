@@ -1,5 +1,5 @@
-a = float(input("Enter First Element: "))
-b = float(input("Enter Second Element: "))
+a = float(input("Enter First Number: "))
+b = float(input("Enter Second Number: "))
 op = input("Enter any Operator (+,-,*,/,%): ")
 if op == '+':
     print("Result is: ", a+b)
@@ -16,4 +16,4 @@ elif op == '%':
     print("Result is: ", a%b)
 
 else:
-    print("Invalid Operator!Try Again")
+    print("Invalid Operator!Try Again.")
