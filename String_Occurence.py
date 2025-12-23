@@ -8,5 +8,5 @@ for i in range(len(string)):
     t = string[:i] + string[(i+1):]
     ans.append(int(t))
     
-print("Final Output:")
+print("Final Result:")
 print(str(max(ans)))
