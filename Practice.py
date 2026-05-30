@@ -36,8 +36,17 @@
 # print("Largest: " ,largest)
 
 
-student = ("Sudha", 25, "BSc")
+# student = ("Sudha", 25, "BSc")
+# print(student)
+# print(student[0])
+
+
+student = {
+    "name": "Sandhya",
+    "age": 24,
+    "course": "MCA"
+}
+
 print(student)
-print(student[0])
 
 
