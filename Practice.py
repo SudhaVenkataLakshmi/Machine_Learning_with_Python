@@ -31,7 +31,13 @@
 # print(numbers)
 
 
-num = [10,30,80,50,90,120]
-largest = max(num)
-print("Largest: " ,largest)
+# num = [10,30,80,50,90,120]
+# largest = max(num)
+# print("Largest: " ,largest)
+
+
+student = ("Sudha", 25, "BSc")
+print(student)
+print(student[0])
+
 
