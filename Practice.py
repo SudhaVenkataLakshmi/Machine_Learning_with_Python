@@ -18,12 +18,20 @@
 # name = input("Enter a String: ")
 # print("Length: ", len(name))
 
-numbers = [10,20,30,40,50]
-print(numbers)
-print(numbers[0])
-print(numbers[2])
-print(numbers[4])
 
-numbers.append(100)
-numbers.remove(20)
-print(numbers)
+
+# numbers = [10,20,30,40,50]
+# print(numbers)
+# print(numbers[0])
+# print(numbers[2])
+# print(numbers[4])
+
+# numbers.append(100)
+# numbers.remove(20)
+# print(numbers)
+
+
+num = [10,30,80,50,90,120]
+largest = max(num)
+print("Largest: " ,largest)
+
