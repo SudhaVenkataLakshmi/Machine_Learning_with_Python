@@ -9,7 +9,11 @@
 # print(name[2])
 
 
-name = "Sushmaaaa"
-print(name[0:4])
-print(name[2:5])
-print(name[4:])
+# name = "Sushmaaaa"
+# print(name[0:4])
+# print(name[2:5])
+# print(name[4:])
+
+
+name = input("Enter a String: ")
+print("Length: ", len(name))
