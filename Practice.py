@@ -23,3 +23,7 @@ print(numbers)
 print(numbers[0])
 print(numbers[2])
 print(numbers[4])
+
+numbers.append(100)
+numbers.remove(20)
+print(numbers)
