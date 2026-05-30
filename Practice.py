@@ -15,5 +15,11 @@
 # print(name[4:])
 
 
-name = input("Enter a String: ")
-print("Length: ", len(name))
+# name = input("Enter a String: ")
+# print("Length: ", len(name))
+
+numbers = [10,20,30,40,50]
+print(numbers)
+print(numbers[0])
+print(numbers[2])
+print(numbers[4])
