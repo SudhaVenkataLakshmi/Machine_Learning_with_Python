@@ -31,9 +31,9 @@
 # print(numbers)
 
 
-# num = [10,30,80,50,90,120]
-# largest = max(num)
-# print("Largest: " ,largest)
+num = [10,30,80,60,90,40]
+largest = max(num)
+print("Largest: " ,largest)
 
 
 # student = ("Sudha", 25, "BSc")
@@ -41,12 +41,12 @@
 # print(student[0])
 
 
-student = {
-    "name": "Sudha",
-    "age": 22,
-    "course": "MPC"
-}
+# student = {
+#     "name": "Sudha",
+#     "age": 22,
+#     "course": "MPC"
+# }
 
-print(student)
+# print(student)
 
 
