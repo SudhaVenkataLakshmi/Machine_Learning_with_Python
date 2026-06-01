@@ -42,9 +42,9 @@
 
 
 student = {
-    "name": "Sandhya",
-    "age": 24,
-    "course": "MCA"
+    "name": "Sudha",
+    "age": 22,
+    "course": "MPC"
 }
 
 print(student)
