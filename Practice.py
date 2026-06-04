@@ -31,7 +31,7 @@
 # print(numbers)
 
 
-num = [10,30,80,60,90,40]
+num = [3,6,8,9,10,12,15,20]
 largest = max(num)
 print("Largest: " ,largest)
 
