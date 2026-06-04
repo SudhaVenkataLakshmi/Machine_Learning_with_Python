@@ -31,14 +31,15 @@
 # print(numbers)
 
 
-num = [3,6,8,9,10,12,15,20]
-largest = max(num)
-print("Largest: " ,largest)
+# num = [3,6,8,9,10,12,15,20]
+# largest = max(num)
+# print("Largest: " ,largest)
 
 
-# student = ("Sudha", 25, "BSc")
-# print(student)
-# print(student[0])
+student = ("Sandhyaa", 22, "MCA")
+print(student)
+print(student[0])
+print(student[2])
 
 
 # student = {
