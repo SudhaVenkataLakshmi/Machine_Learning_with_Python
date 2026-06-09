@@ -7,4 +7,4 @@ def find_duplicates(lst):
 
     return duplicates
 
-print(find_duplicates([1, 2, 3, 2, 4, 5, 1]))
+print(find_duplicates([2,5,7,9,3,2,1,2,1]))
