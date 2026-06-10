@@ -6,4 +6,4 @@ def frequency(text):
 
     return freq
 
-print(frequency("banana"))
+print(frequency("Cellulose"))
