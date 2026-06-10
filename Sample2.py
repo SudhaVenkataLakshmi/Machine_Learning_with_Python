@@ -7,4 +7,4 @@ def lcm(a, b):
     gcd = temp_a
     return (a * b) // gcd
 
-print(lcm(12, 18))
+print(lcm(15,45))
