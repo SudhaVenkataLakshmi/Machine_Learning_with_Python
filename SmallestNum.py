@@ -1,4 +1,4 @@
-numbers = [12,5,9,7,3,10,15]
+numbers = [10,5,8,3,2,12]
 
 smallest = numbers[0]
 
