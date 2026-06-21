@@ -10,4 +10,4 @@ def count_case(text):
 
     return upper, lower
 
-print(count_case("SuShmApiLLa"))
+print(count_case("JavAPracTiCE"))
