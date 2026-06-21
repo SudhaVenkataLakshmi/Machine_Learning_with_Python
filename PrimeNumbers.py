@@ -8,4 +8,4 @@ def is_prime(num):
 
     return True
 
-print(is_prime(17))
+print(is_prime(23))
