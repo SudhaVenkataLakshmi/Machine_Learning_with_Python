@@ -7,4 +7,4 @@ def count_digits(num):
 
     return count
 
-print(count_digits(12345))
+print(count_digits(54321))
